@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F035AF351DEEAA080055EA11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F035AF341DEEAA080055EA11 /* main.m */; };
+		F035AF381DEEAA080055EA11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F035AF371DEEAA080055EA11 /* AppDelegate.m */; };
+		F035AF3B1DEEAA080055EA11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F035AF3A1DEEAA080055EA11 /* ViewController.m */; };
+		F035AF3E1DEEAA080055EA11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F035AF3C1DEEAA080055EA11 /* Main.storyboard */; };
+		F035AF401DEEAA080055EA11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F035AF3F1DEEAA080055EA11 /* Assets.xcassets */; };
+		F035AF431DEEAA080055EA11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F035AF411DEEAA080055EA11 /* LaunchScreen.storyboard */; };
+		F035AF4E1DEEAA080055EA11 /* VRImage_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F035AF4D1DEEAA080055EA11 /* VRImage_DemoUITests.m */; };
+		F035AF731DEEAA350055EA11 /* libCardboardSDK_arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F035AF591DEEAA350055EA11 /* libCardboardSDK_arm64.a */; };
+		F035AF741DEEAA350055EA11 /* libCardboardSDK_armv7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F035AF5A1DEEAA350055EA11 /* libCardboardSDK_armv7.a */; };
+		F035AF751DEEAA350055EA11 /* libCardboardSDK_i386.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F035AF5B1DEEAA350055EA11 /* libCardboardSDK_i386.a */; };
+		F035AF761DEEAA350055EA11 /* libCardboardSDK_x86_64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F035AF5C1DEEAA350055EA11 /* libCardboardSDK_x86_64.a */; };
+		F035AF7D1DEEABB60055EA11 /* C8F1C28DFE3B84E499458D99CBCF1E6C.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F035AF7C1DEEABB60055EA11 /* C8F1C28DFE3B84E499458D99CBCF1E6C.jpg */; };
+		F035AF801DEEAFB90055EA11 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F035AF7F1DEEAFB90055EA11 /* libstdc++.tbd */; };
+		F035AF861DEEB3E60055EA11 /* CardboardSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F035AF811DEEB3E60055EA11 /* CardboardSDK.bundle */; };
+		F035AF871DEEB3E60055EA11 /* GoogleKitCore.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F035AF821DEEB3E60055EA11 /* GoogleKitCore.bundle */; };
+		F035AF881DEEB3E60055EA11 /* GoogleKitDialogs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F035AF831DEEB3E60055EA11 /* GoogleKitDialogs.bundle */; };
+		F035AF891DEEB3E60055EA11 /* GoogleKitHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F035AF841DEEB3E60055EA11 /* GoogleKitHUD.bundle */; };
+		F035AF8A1DEEB3E60055EA11 /* MaterialRobotoFontLoader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F035AF851DEEB3E60055EA11 /* MaterialRobotoFontLoader.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F035AF4A1DEEAA080055EA11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F035AF281DEEAA080055EA11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F035AF2F1DEEAA080055EA11;
+			remoteInfo = VRImage_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F035AF301DEEAA080055EA11 /* VRImage_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRImage_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F035AF341DEEAA080055EA11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F035AF361DEEAA080055EA11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F035AF371DEEAA080055EA11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F035AF391DEEAA080055EA11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F035AF3A1DEEAA080055EA11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F035AF3D1DEEAA080055EA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F035AF3F1DEEAA080055EA11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F035AF421DEEAA080055EA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F035AF441DEEAA080055EA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F035AF491DEEAA080055EA11 /* VRImage_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRImage_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F035AF4D1DEEAA080055EA11 /* VRImage_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRImage_DemoUITests.m; sourceTree = "<group>"; };
+		F035AF4F1DEEAA080055EA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F035AF591DEEAA350055EA11 /* libCardboardSDK_arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardboardSDK_arm64.a; sourceTree = "<group>"; };
+		F035AF5A1DEEAA350055EA11 /* libCardboardSDK_armv7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardboardSDK_armv7.a; sourceTree = "<group>"; };
+		F035AF5B1DEEAA350055EA11 /* libCardboardSDK_i386.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardboardSDK_i386.a; sourceTree = "<group>"; };
+		F035AF5C1DEEAA350055EA11 /* libCardboardSDK_x86_64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardboardSDK_x86_64.a; sourceTree = "<group>"; };
+		F035AF641DEEAA350055EA11 /* GVRAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVRAudioEngine.h; sourceTree = "<group>"; };
+		F035AF651DEEAA350055EA11 /* GVRCardboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVRCardboardView.h; sourceTree = "<group>"; };
+		F035AF661DEEAA350055EA11 /* GVRHeadTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVRHeadTransform.h; sourceTree = "<group>"; };
+		F035AF671DEEAA350055EA11 /* GVROverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVROverlayView.h; sourceTree = "<group>"; };
+		F035AF681DEEAA350055EA11 /* GVRPanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVRPanoramaView.h; sourceTree = "<group>"; };
+		F035AF691DEEAA350055EA11 /* GVRVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVRVideoView.h; sourceTree = "<group>"; };
+		F035AF6A1DEEAA350055EA11 /* GVRWidgetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVRWidgetView.h; sourceTree = "<group>"; };
+		F035AF6F1DEEAA350055EA11 /* gvr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gvr.h; sourceTree = "<group>"; };
+		F035AF701DEEAA350055EA11 /* gvr_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gvr_audio.h; sourceTree = "<group>"; };
+		F035AF711DEEAA350055EA11 /* gvr_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gvr_types.h; sourceTree = "<group>"; };
+		F035AF721DEEAA350055EA11 /* gvr_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gvr_version.h; sourceTree = "<group>"; };
+		F035AF7C1DEEABB60055EA11 /* C8F1C28DFE3B84E499458D99CBCF1E6C.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = C8F1C28DFE3B84E499458D99CBCF1E6C.jpg; sourceTree = "<group>"; };
+		F035AF7F1DEEAFB90055EA11 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		F035AF811DEEB3E60055EA11 /* CardboardSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CardboardSDK.bundle; sourceTree = "<group>"; };
+		F035AF821DEEB3E60055EA11 /* GoogleKitCore.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleKitCore.bundle; sourceTree = "<group>"; };
+		F035AF831DEEB3E60055EA11 /* GoogleKitDialogs.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleKitDialogs.bundle; sourceTree = "<group>"; };
+		F035AF841DEEB3E60055EA11 /* GoogleKitHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleKitHUD.bundle; sourceTree = "<group>"; };
+		F035AF851DEEB3E60055EA11 /* MaterialRobotoFontLoader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MaterialRobotoFontLoader.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F035AF2D1DEEAA080055EA11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F035AF801DEEAFB90055EA11 /* libstdc++.tbd in Frameworks */,
+				F035AF761DEEAA350055EA11 /* libCardboardSDK_x86_64.a in Frameworks */,
+				F035AF731DEEAA350055EA11 /* libCardboardSDK_arm64.a in Frameworks */,
+				F035AF751DEEAA350055EA11 /* libCardboardSDK_i386.a in Frameworks */,
+				F035AF741DEEAA350055EA11 /* libCardboardSDK_armv7.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F035AF461DEEAA080055EA11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F035AF271DEEAA080055EA11 = {
+			isa = PBXGroup;
+			children = (
+				F035AF321DEEAA080055EA11 /* VRImage_Demo */,
+				F035AF4C1DEEAA080055EA11 /* VRImage_DemoUITests */,
+				F035AF311DEEAA080055EA11 /* Products */,
+				F035AF7E1DEEAFB90055EA11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F035AF311DEEAA080055EA11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F035AF301DEEAA080055EA11 /* VRImage_Demo.app */,
+				F035AF491DEEAA080055EA11 /* VRImage_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F035AF321DEEAA080055EA11 /* VRImage_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F035AF361DEEAA080055EA11 /* AppDelegate.h */,
+				F035AF371DEEAA080055EA11 /* AppDelegate.m */,
+				F035AF391DEEAA080055EA11 /* ViewController.h */,
+				F035AF3A1DEEAA080055EA11 /* ViewController.m */,
+				F035AF7C1DEEABB60055EA11 /* C8F1C28DFE3B84E499458D99CBCF1E6C.jpg */,
+				F035AF3C1DEEAA080055EA11 /* Main.storyboard */,
+				F035AF3F1DEEAA080055EA11 /* Assets.xcassets */,
+				F035AF581DEEAA350055EA11 /* Libraries */,
+				F035AF631DEEAA350055EA11 /* Sources */,
+				F035AF411DEEAA080055EA11 /* LaunchScreen.storyboard */,
+				F035AF441DEEAA080055EA11 /* Info.plist */,
+				F035AF331DEEAA080055EA11 /* Supporting Files */,
+			);
+			path = VRImage_Demo;
+			sourceTree = "<group>";
+		};
+		F035AF331DEEAA080055EA11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F035AF341DEEAA080055EA11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F035AF4C1DEEAA080055EA11 /* VRImage_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F035AF4D1DEEAA080055EA11 /* VRImage_DemoUITests.m */,
+				F035AF4F1DEEAA080055EA11 /* Info.plist */,
+			);
+			path = VRImage_DemoUITests;
+			sourceTree = "<group>";
+		};
+		F035AF581DEEAA350055EA11 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F035AF591DEEAA350055EA11 /* libCardboardSDK_arm64.a */,
+				F035AF5A1DEEAA350055EA11 /* libCardboardSDK_armv7.a */,
+				F035AF5B1DEEAA350055EA11 /* libCardboardSDK_i386.a */,
+				F035AF5C1DEEAA350055EA11 /* libCardboardSDK_x86_64.a */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		F035AF631DEEAA350055EA11 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F035AF811DEEB3E60055EA11 /* CardboardSDK.bundle */,
+				F035AF821DEEB3E60055EA11 /* GoogleKitCore.bundle */,
+				F035AF831DEEB3E60055EA11 /* GoogleKitDialogs.bundle */,
+				F035AF841DEEB3E60055EA11 /* GoogleKitHUD.bundle */,
+				F035AF851DEEB3E60055EA11 /* MaterialRobotoFontLoader.bundle */,
+				F035AF641DEEAA350055EA11 /* GVRAudioEngine.h */,
+				F035AF651DEEAA350055EA11 /* GVRCardboardView.h */,
+				F035AF661DEEAA350055EA11 /* GVRHeadTransform.h */,
+				F035AF671DEEAA350055EA11 /* GVROverlayView.h */,
+				F035AF681DEEAA350055EA11 /* GVRPanoramaView.h */,
+				F035AF691DEEAA350055EA11 /* GVRVideoView.h */,
+				F035AF6A1DEEAA350055EA11 /* GVRWidgetView.h */,
+				F035AF6B1DEEAA350055EA11 /* vr */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F035AF6B1DEEAA350055EA11 /* vr */ = {
+			isa = PBXGroup;
+			children = (
+				F035AF6C1DEEAA350055EA11 /* gvr */,
+			);
+			path = vr;
+			sourceTree = "<group>";
+		};
+		F035AF6C1DEEAA350055EA11 /* gvr */ = {
+			isa = PBXGroup;
+			children = (
+				F035AF6D1DEEAA350055EA11 /* capi */,
+			);
+			path = gvr;
+			sourceTree = "<group>";
+		};
+		F035AF6D1DEEAA350055EA11 /* capi */ = {
+			isa = PBXGroup;
+			children = (
+				F035AF6E1DEEAA350055EA11 /* include */,
+			);
+			path = capi;
+			sourceTree = "<group>";
+		};
+		F035AF6E1DEEAA350055EA11 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F035AF6F1DEEAA350055EA11 /* gvr.h */,
+				F035AF701DEEAA350055EA11 /* gvr_audio.h */,
+				F035AF711DEEAA350055EA11 /* gvr_types.h */,
+				F035AF721DEEAA350055EA11 /* gvr_version.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F035AF7E1DEEAFB90055EA11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F035AF7F1DEEAFB90055EA11 /* libstdc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F035AF2F1DEEAA080055EA11 /* VRImage_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F035AF521DEEAA080055EA11 /* Build configuration list for PBXNativeTarget "VRImage_Demo" */;
+			buildPhases = (
+				F035AF2C1DEEAA080055EA11 /* Sources */,
+				F035AF2D1DEEAA080055EA11 /* Frameworks */,
+				F035AF2E1DEEAA080055EA11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRImage_Demo;
+			productName = VRImage_Demo;
+			productReference = F035AF301DEEAA080055EA11 /* VRImage_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F035AF481DEEAA080055EA11 /* VRImage_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F035AF551DEEAA080055EA11 /* Build configuration list for PBXNativeTarget "VRImage_DemoUITests" */;
+			buildPhases = (
+				F035AF451DEEAA080055EA11 /* Sources */,
+				F035AF461DEEAA080055EA11 /* Frameworks */,
+				F035AF471DEEAA080055EA11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F035AF4B1DEEAA080055EA11 /* PBXTargetDependency */,
+			);
+			name = VRImage_DemoUITests;
+			productName = VRImage_DemoUITests;
+			productReference = F035AF491DEEAA080055EA11 /* VRImage_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F035AF281DEEAA080055EA11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "赵飞跃";
+				TargetAttributes = {
+					F035AF2F1DEEAA080055EA11 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = K2K9REBKPR;
+						ProvisioningStyle = Automatic;
+					};
+					F035AF481DEEAA080055EA11 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F035AF2F1DEEAA080055EA11;
+					};
+				};
+			};
+			buildConfigurationList = F035AF2B1DEEAA080055EA11 /* Build configuration list for PBXProject "VRImage_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F035AF271DEEAA080055EA11;
+			productRefGroup = F035AF311DEEAA080055EA11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F035AF2F1DEEAA080055EA11 /* VRImage_Demo */,
+				F035AF481DEEAA080055EA11 /* VRImage_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F035AF2E1DEEAA080055EA11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F035AF431DEEAA080055EA11 /* LaunchScreen.storyboard in Resources */,
+				F035AF891DEEB3E60055EA11 /* GoogleKitHUD.bundle in Resources */,
+				F035AF401DEEAA080055EA11 /* Assets.xcassets in Resources */,
+				F035AF7D1DEEABB60055EA11 /* C8F1C28DFE3B84E499458D99CBCF1E6C.jpg in Resources */,
+				F035AF3E1DEEAA080055EA11 /* Main.storyboard in Resources */,
+				F035AF871DEEB3E60055EA11 /* GoogleKitCore.bundle in Resources */,
+				F035AF881DEEB3E60055EA11 /* GoogleKitDialogs.bundle in Resources */,
+				F035AF861DEEB3E60055EA11 /* CardboardSDK.bundle in Resources */,
+				F035AF8A1DEEB3E60055EA11 /* MaterialRobotoFontLoader.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F035AF471DEEAA080055EA11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F035AF2C1DEEAA080055EA11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F035AF3B1DEEAA080055EA11 /* ViewController.m in Sources */,
+				F035AF381DEEAA080055EA11 /* AppDelegate.m in Sources */,
+				F035AF351DEEAA080055EA11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F035AF451DEEAA080055EA11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F035AF4E1DEEAA080055EA11 /* VRImage_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F035AF4B1DEEAA080055EA11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F035AF2F1DEEAA080055EA11 /* VRImage_Demo */;
+			targetProxy = F035AF4A1DEEAA080055EA11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F035AF3C1DEEAA080055EA11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F035AF3D1DEEAA080055EA11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F035AF411DEEAA080055EA11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F035AF421DEEAA080055EA11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F035AF501DEEAA080055EA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F035AF511DEEAA080055EA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F035AF531DEEAA080055EA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K2K9REBKPR;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = VRImage_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VRImage_Demo/Libraries",
+					"-ObjC",
+				);
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CardboardSDK_arm64\"",
+					"-l\"CardboardSDK_armv7\"",
+					"-l\"CardboardSDK_i386\"",
+					"-l\"CardboardSDK_x86_64\"",
+					"-l\"c++\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zd.yuyi.VRImage-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F035AF541DEEAA080055EA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K2K9REBKPR;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = VRImage_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VRImage_Demo/Libraries",
+					"-ObjC",
+				);
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CardboardSDK_arm64\"",
+					"-l\"CardboardSDK_armv7\"",
+					"-l\"CardboardSDK_i386\"",
+					"-l\"CardboardSDK_x86_64\"",
+					"-l\"c++\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zd.yuyi.VRImage-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		F035AF561DEEAA080055EA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VRImage_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zd.yuyi.VRImage-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VRImage_Demo;
+			};
+			name = Debug;
+		};
+		F035AF571DEEAA080055EA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VRImage_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zd.yuyi.VRImage-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VRImage_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F035AF2B1DEEAA080055EA11 /* Build configuration list for PBXProject "VRImage_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F035AF501DEEAA080055EA11 /* Debug */,
+				F035AF511DEEAA080055EA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F035AF521DEEAA080055EA11 /* Build configuration list for PBXNativeTarget "VRImage_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F035AF531DEEAA080055EA11 /* Debug */,
+				F035AF541DEEAA080055EA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F035AF551DEEAA080055EA11 /* Build configuration list for PBXNativeTarget "VRImage_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F035AF561DEEAA080055EA11 /* Debug */,
+				F035AF571DEEAA080055EA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F035AF281DEEAA080055EA11 /* Project object */;
+}
