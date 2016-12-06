@@ -23,14 +23,14 @@
     self.panoView.enableCardboardButton = YES;
     self.panoView.enableTouchTracking = YES;
     self.panoView.accessibilityElementsHidden = NO;
-//    [self.panoView.subviews[3] removeFromSuperview];
+    [self.panoView.subviews[3] removeFromSuperview];
     
 //    UIView *maskView = [[UIView alloc]init];
 //    maskView.frame = CGRectMake(0, 375 / 2 - 40 * 3, padding * 4, padding * 2.5);
 //    maskView.backgroundColor = [UIColor clearColor];
 //    [self.panoView addSubview:maskView];
     
-    [self.panoView loadImage:[UIImage imageNamed:@"C8F1C28DFE3B84E499458D99CBCF1E6C.jpg"]
+    [self.panoView loadImage:[UIImage imageNamed:@"scrennTest.jpg"]
                       ofType:kGVRPanoramaImageTypeStereoOverUnder];
     [self.view addSubview:self.panoView];
     

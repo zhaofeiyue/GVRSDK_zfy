@@ -25,6 +25,7 @@
 		F035AF881DEEB3E60055EA11 /* GoogleKitDialogs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F035AF831DEEB3E60055EA11 /* GoogleKitDialogs.bundle */; };
 		F035AF891DEEB3E60055EA11 /* GoogleKitHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F035AF841DEEB3E60055EA11 /* GoogleKitHUD.bundle */; };
 		F035AF8A1DEEB3E60055EA11 /* MaterialRobotoFontLoader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F035AF851DEEB3E60055EA11 /* MaterialRobotoFontLoader.bundle */; };
+		F0B7E53C1DEFE8D7008BA540 /* scrennTest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0B7E53B1DEFE8D7008BA540 /* scrennTest.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		F035AF831DEEB3E60055EA11 /* GoogleKitDialogs.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleKitDialogs.bundle; sourceTree = "<group>"; };
 		F035AF841DEEB3E60055EA11 /* GoogleKitHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleKitHUD.bundle; sourceTree = "<group>"; };
 		F035AF851DEEB3E60055EA11 /* MaterialRobotoFontLoader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MaterialRobotoFontLoader.bundle; sourceTree = "<group>"; };
+		F0B7E53B1DEFE8D7008BA540 /* scrennTest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scrennTest.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				F035AF371DEEAA080055EA11 /* AppDelegate.m */,
 				F035AF391DEEAA080055EA11 /* ViewController.h */,
 				F035AF3A1DEEAA080055EA11 /* ViewController.m */,
+				F0B7E53B1DEFE8D7008BA540 /* scrennTest.jpg */,
 				F035AF7C1DEEABB60055EA11 /* C8F1C28DFE3B84E499458D99CBCF1E6C.jpg */,
 				F035AF3C1DEEAA080055EA11 /* Main.storyboard */,
 				F035AF3F1DEEAA080055EA11 /* Assets.xcassets */,
@@ -314,6 +317,7 @@
 				F035AF891DEEB3E60055EA11 /* GoogleKitHUD.bundle in Resources */,
 				F035AF401DEEAA080055EA11 /* Assets.xcassets in Resources */,
 				F035AF7D1DEEABB60055EA11 /* C8F1C28DFE3B84E499458D99CBCF1E6C.jpg in Resources */,
+				F0B7E53C1DEFE8D7008BA540 /* scrennTest.jpg in Resources */,
 				F035AF3E1DEEAA080055EA11 /* Main.storyboard in Resources */,
 				F035AF871DEEB3E60055EA11 /* GoogleKitCore.bundle in Resources */,
 				F035AF881DEEB3E60055EA11 /* GoogleKitDialogs.bundle in Resources */,
@@ -615,6 +619,7 @@
 				F035AF541DEEAA080055EA11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F035AF551DEEAA080055EA11 /* Build configuration list for PBXNativeTarget "VRImage_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -623,6 +628,7 @@
 				F035AF571DEEAA080055EA11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
