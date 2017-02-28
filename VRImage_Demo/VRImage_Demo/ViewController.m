@@ -36,7 +36,9 @@
     
     // Do any additional setup after loading the view, typically from a nib.
 }
-
+- (void)MyGitTest{
+    ///////////////
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
