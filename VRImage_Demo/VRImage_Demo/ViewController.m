@@ -43,6 +43,8 @@
 
 - (void)MyGitTest2{
     ///////////////
+    
+    // 这将是一场战争
 }
 
 - (void)didReceiveMemoryWarning {
