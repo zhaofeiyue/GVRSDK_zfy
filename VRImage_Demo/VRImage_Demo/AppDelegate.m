@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
-// sdassdfsdfasfddfs
+// sdassdfsdfasfddfs  都是第三方
 @end
 
 @implementation AppDelegate
